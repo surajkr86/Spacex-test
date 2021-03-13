@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2>SpaceX Launch Programs</h2>
+        </div>
+    </nav>
+    <div class="container" id="loading">
+        
+        <div class="row">
+            
+            <div class="col-md-4">
+               
+                <div class="card-filter">
+                    
+                    <div class="card">
+                        <h4>Filters</h4>
+                        <div class="card-body">
+                            <h5>Launch Year</h5>
+                            <div class="divider"></div>
+                            <div class="year cols" id="year">
+                                <button class="year_btn btn">2006</button>
+                                <button class="year_btn btn">2007</button>
+                                <button class="year_btn btn">2008</button>
+                                <button class="year_btn btn">2009</button>
+                                <button class="year_btn btn">2010</button>
+                                <button class="year_btn btn">2011</button>
+                                <button class="year_btn btn">2012</button>
+                                <button class="year_btn btn">2013</button>
+                                <button class="year_btn btn">2014</button>
+                                <button class="year_btn btn">2015</button>
+                                <button class="year_btn btn">2016</button>
+                                <button class="year_btn btn">2017</button>
+                                <button class="year_btn btn">2018</button>
+                                <button class="year_btn btn">2019</button>
+                                <button class="year_btn btn">2020</button>
+                            </div>
+                           
+                        </div>
+                        <div class="card-body">
+                            <h5>Successful Launch</h5>
+                            <div class="divider"></div>
+                            <div class="launch cols">
+                                <button class="launch_btn btn">True </button>
+                                <button class="launch_btn btn">False </button>
+                            </div>
+                        
+                        </div>
+                        <div class="card-body">
+                            <h5>Successful Landing</h5>
+                            <div class="divider"></div>
+                            <div class="landing cols">
+                                <button class="land_btn btn">True</button>
+                                <button class="land_btn btn">False</button>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+               
+                <div id="datashow" class="card-box">
+
+                </div>    
+
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script-min.js"></script>
+</body>
+</html>
